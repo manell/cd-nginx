@@ -2,4 +2,4 @@
 
 set -e
 
-docker ps -aq | xargs docker rm -f
+panoramix clobber
