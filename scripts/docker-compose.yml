@@ -4,3 +4,12 @@ appleproxy:
    - "8080:8080"
    - "8081:8081"
   command: nodejs /home/nodejs/server.js gateway.push.apple.com:2195 gateway.sandbox.push.apple.com:2195 -v
+
+
+
+
+
+
+
+
+  
