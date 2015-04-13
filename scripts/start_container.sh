@@ -2,4 +2,4 @@
 
 set -e
 
-rake -f ../rakefile up
+panoramix -f ../rakefile up

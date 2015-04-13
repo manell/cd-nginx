@@ -2,4 +2,4 @@
 
 set -e
 
-rake -f ../rakefile clobber
+panoramix -f ../rakefile clobber
