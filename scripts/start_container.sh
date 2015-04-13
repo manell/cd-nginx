@@ -2,4 +2,8 @@
 
 set -e
 
-panoramix up
+DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+
+VOL="-v $DIR:/tmp/panoramix"
+
+panoramix $VOL up
