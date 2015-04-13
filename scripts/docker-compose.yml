@@ -1,4 +1,4 @@
-apple_proxy:
+appleproxy:
   image: proxy
   ports:
    - "8080:8080"

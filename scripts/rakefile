@@ -4,9 +4,9 @@ current_dir = File.dirname(__FILE__)
 
 external "proxy" => {dockerimage: nil}
 
-docker_up "proxy_apple" => [
+docker_up "proxyapple" => [
   {compose: "#{current_dir}/docker-compose.yml"},
   "proxy"
 ]
 
-task :up => "proxy_apple"
+task :up => "proxyapple"
