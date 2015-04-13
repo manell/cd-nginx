@@ -2,4 +2,4 @@
 
 set -e
 
-panoramix -f ../rakefile clobber
+docker ps -aq | xargs docker rm -f
