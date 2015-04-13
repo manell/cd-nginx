@@ -2,4 +2,4 @@
 
 set -e
 
-docker rm -f nginx || true
+rake -f ../rakefile clobber

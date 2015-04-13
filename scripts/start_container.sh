@@ -2,4 +2,4 @@
 
 set -e
 
-docker run -d --name nginx -p 8080:8080 -p 80:80 nginx
+rake -f ../rakefile up
